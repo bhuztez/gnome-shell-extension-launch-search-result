@@ -1,0 +1,8 @@
+{
+    "shell-version": ["3.0.2"],
+    "uuid": "launch-search-result@bhuztez.github.com",
+    "original-author": "bhuztez@gmail.com",
+    "name": "launchSearchResult",
+    "description": "launch search result in current workspace or a new workspace",
+    "url": "https://github.com/bhuztez/gnome-shell-extension-launch-search-result"
+}
