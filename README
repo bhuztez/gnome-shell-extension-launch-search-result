@@ -1,0 +1,28 @@
+==========================================
+gnome-shell-extension-launch-search-result
+==========================================
+
+When you select an application in search results, 
+
+* Press Menu, the menu which popups on right-click, will popup.
+
+* Press Ctrl-Enter, a new window of the application will open at a new
+  workspace, just as Ctrl with left-click.
+
+* Press Alt-Enter, a new window of the application will open at current
+  workspace.
+
+
+
+Installation
+============
+
+Copy to ~/.local/share/gnome-shell/extensions or
+/usr/share/gnome-shell/extensions/, and then restart GNOME Shell (Alt+F2, r,
+Enter).
+
+
+License
+=======
+This extension is distributed under the terms of the GNU General Public License,
+version 2 or later. See the COPYING file for details.
