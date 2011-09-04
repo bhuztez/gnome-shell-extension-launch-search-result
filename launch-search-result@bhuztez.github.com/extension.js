@@ -42,13 +42,13 @@ function main() {
                     return true;
                 } else if (symbol == Clutter.Return) {
                     let modifiers = Shell.get_event_state(event);
-                    if (modifiers == Clutter.ModifierType.CONTROL_MASK) {
+                    if (modifiers == Clutter.ModifierType.SHIFT_MASK) {
                         let launchWorkspace = global.screen.get_workspace_by_index(global.screen.n_workspaces - 1);
                         launchWorkspace.activate(global.get_current_time());
                         icon.emit('launching');
                         icon.app.open_new_window(-1);
                         Main.overview.hide();
-                    } else if (modifiers == Clutter.ModifierType.SHIFT_MASK) {
+                    } else if (modifiers == Clutter.ModifierType.CONTROL_MASK) {
                         icon.emit('launching');
                         icon.app.open_new_window(-1);
                         Main.overview.hide();
